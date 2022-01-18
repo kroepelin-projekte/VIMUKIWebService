@@ -20,7 +20,7 @@
 2. To request one of these SOAP-Methods first call the login method with your credential: clientId, soapUser, soapPassword
    Now a session token should be returned from the SOAP server. This token you will need for all the next soap calls.
 3. To Call `eventVIMUKIObject` you just have to put in the token as value for the sid parameter, the multivc_ref_id and session_ref_id.
-   If the process ends successfully the date of the ILIAS session be returned. If the given multivc_ref_id doen't belong to an MultiVc object or the given session_ref_id doesn't belong to a Session object then>
+   If the process ends successfully the date of the ILIAS session be returned. If the given multivc_ref_id doen't belong to an MultiVc object or the given session_ref_id doesn't belong to a Session object then it will return false.
 
 
 ## Configuration
